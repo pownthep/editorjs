@@ -1,0 +1,34 @@
+.raw {
+    img {
+        width: 100px;
+        height: 100px;
+    }
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    z-index: 1;
+}
+.function:hover {
+    color: #5755d9;
+}
+.editor {
+    height: 94vh;
+    width: 100%;
+    background: #fff; 
+    overflow: auto;
+}
+.preview {
+    height: 94vh;
+    width: 100%;
+    //background: #fff; 
+    overflow: auto;
+    padding: 30px;
+}
+i {
+    font-size: 45px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
